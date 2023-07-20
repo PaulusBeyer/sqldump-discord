@@ -18,7 +18,7 @@ git clone
 
 # Configuración
 Abre el archivo y edita los siguientes parametros con los parametros de tu bot creado en [Discord Developers](https://discord.com/developers/applications)
-```
+```python
 TOKEN = ('TOKENDELBOT') # Cambia TOKENDELBOT por el Token de tu bot generado en Discord Developers. (ingresa el token dentro de las '')
 GUILD = ('IDDELSERVIDOR') # Cambia IDDELSERVIDOR por la ID del Servidor de Discord donde se guardarán los respaldos. (ingresa el token dentro de las '')
 channel = bot.get_channel(IDCANALRESPALDOS) # Cambia IDCANALRESPALDOS por la ID del Canal de Discord donde se guardarán los respaldos. (Este no lleva '')
@@ -27,6 +27,6 @@ await asyncio.sleep(3600) # Tiempo en segundos cada cuanto se realizará el resp
 
 # Ejecuta
 Si usas Linux ejecuta en tu terminal y el bot te enviará un mensaje de que está listo, 5 segundos después realizará el primer guardado.
-```
+```console
 python3 bot.py
 ```
