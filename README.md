@@ -1,19 +1,19 @@
-# ⚡ 𝗦𝗤𝗟𝗗𝘂𝗺𝗽𝗽𝗲𝗿 - Bot para Discord en Python
+# ⚡ 𝗦𝗤𝗟𝗗𝘂𝗺𝗽𝗽𝗲𝗿 - Bot para Discord en **Python**
 
 Bot que te permite hacer respaldos de tu base de datos y sube los respaldos directamente a Discord.
 
 ## Instalación
-Debes tener instalado los modulos `discord` `pipes` y `asyncio` antes de ejecutar el bot, en mi caso utilizo Linux para correrlo, por lo que debes crear una screen para mantener corriendo el bot.
+Debes tener instalado los modulos `discord` `pipes` y `asyncio` antes de ejecutar el bot, en mi caso utilizo Linux para correrlo, por lo que debes crear una `screen` para mantener corriendo el bot.
 
 ```console
 pip install discord
 pip install pipes
 pip install asyncio
+apt-get install screen
 ```
 
 ```console
-apt-get install screen
-git clone
+git clone https://github.com/PaulusBeyer/sqldump-discord.git
 ```
 
 ## Configuración
