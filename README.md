@@ -5,13 +5,13 @@ Bot que te permite hacer respaldos de tu base de datos y sube los respaldos dire
 # Instalación
 Debes tener instalado los modulos `discord` `pipes` y `asyncio` antes de ejecutar el bot, en mi caso utilizo Linux para correrlo, por lo que debes crear una screen para mantener corriendo el bot.
 
-```
+```console
 pip install discord
 pip install pipes
 pip install asyncio
 ```
 
-```
+```console
 apt-get install screen
 git clone
 ```
