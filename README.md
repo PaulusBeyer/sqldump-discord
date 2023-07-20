@@ -17,7 +17,7 @@ git clone https://github.com/PaulusBeyer/sqldump-discord.git
 ```
 
 ## Configuración
-Abre el archivo y edita los siguientes parametros con los parametros de tu bot creado en [Discord Developers](https://discord.com/developers/applications)
+Abre el archivo y edita los siguientes parametros con los parametros de tu bot creado en [Discord Developers](https://discord.com/developers/applications) con Scopes `bot` y Permissions `Send Messages`, `Embed Link` y `Attach Files`
 ```python
 TOKEN = ('TOKENDELBOT') # Cambia TOKENDELBOT por el Token de tu bot generado en Discord Developers. (ingresa el token dentro de las '')
 GUILD = ('IDDELSERVIDOR') # Cambia IDDELSERVIDOR por la ID del Servidor de Discord donde se guardarán los respaldos. (ingresa el token dentro de las '')
