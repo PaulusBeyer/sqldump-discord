@@ -22,6 +22,7 @@ Abre el archivo y edita los siguientes parametros con los parametros de tu bot c
 TOKEN = ('TOKENDELBOT') # Cambia TOKENDELBOT por el Token de tu bot generado en Discord Developers. (ingresa el token dentro de las '')
 GUILD = ('IDDELSERVIDOR') # Cambia IDDELSERVIDOR por la ID del Servidor de Discord donde se guardarán los respaldos. (ingresa el token dentro de las '')
 channel = bot.get_channel(IDCANALRESPALDOS) # Cambia IDCANALRESPALDOS por la ID del Canal de Discord donde se guardarán los respaldos. (Este no lleva '')
+await bot.change_presence(activity=discord.Game(name="ServerName")) # Cambia ServerName por el nombre de tu Servidor
 await asyncio.sleep(3600) # Tiempo en segundos cada cuanto se realizará el respaldo. 3600 = 1 hora, 21600 = 6 horas, 43200 = 12 horas, 86400 = 24 horas
 ```
 
